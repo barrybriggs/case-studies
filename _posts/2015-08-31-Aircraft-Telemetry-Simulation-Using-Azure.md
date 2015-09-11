@@ -58,7 +58,7 @@ Every thirty miles (configurable) the application looks for new weather events w
 
 ###Haversine Algorithm and the Great Circle###
 
-This project has an implementation of the Haversine algorithm ([code](https://github.com/barrybriggs/aircraft/blob/master/Plane/Haversine.cs) for determining the distance and bearing between two points given by latitude and longitude, taking into account the radius of the Earth. More information can be found in this [Wikipedia article](https://en.wikipedia.org/wiki/Haversine_formula) and in this excellent [article](http://www.movable-type.co.uk/scripts/latlong.html) which provides an implementation in JavaScript. As can be seen from the screenshots all routes are calculated using the [Great Circle](https://en.wikipedia.org/wiki/Great_circle) method. 
+This project has an implementation of the Haversine algorithm ([code](https://github.com/barrybriggs/aircraft/blob/master/Plane/Haversine.cs)) for determining the distance and bearing between two points given by latitude and longitude, taking into account the radius of the Earth. More information can be found in this [Wikipedia article](https://en.wikipedia.org/wiki/Haversine_formula) and in this excellent [article](http://www.movable-type.co.uk/scripts/latlong.html) which provides an implementation in JavaScript. As can be seen from the screenshots all routes are calculated using the [Great Circle](https://en.wikipedia.org/wiki/Great_circle) method. 
 
 This code is kept in a static class and is very reusable. 
 
